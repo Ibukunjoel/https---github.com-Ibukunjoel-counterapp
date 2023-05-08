@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(red, green, blue, alpha);
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    margin: 10px auto;
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 200px;
+	border-radius:5px;
+	border:none;
+    padding: 10px auto;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+    font-weight: bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-bottom: 5px;
+}
+
+#enter{
+    background-color: #c4c;
+    margin-top: 15px;
+}
+
+button:hover {
+	background-color:#5cbf2a;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: rgb(251, 102, 102);
+}
+
+#counter{
+    display: none;
+}
